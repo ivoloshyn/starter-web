@@ -8,7 +8,7 @@ public class Test2 {
         //gecko driver
         System.setProperty("webdriver.gecko.driver", "D:\\Study\\Selenium+java\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
-        driver.get("https://google.com.ua");
+        driver.get("https://google.com");
         System.out.println(driver.getTitle());
     }
 }
