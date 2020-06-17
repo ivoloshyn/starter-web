@@ -10,5 +10,6 @@ public class Test2 {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://google.com.ua");
         System.out.println(driver.getTitle());
+        System.out.println("Master 1");
     }
 }
