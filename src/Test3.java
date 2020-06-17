@@ -9,7 +9,5 @@ public class Test3 {
         System.setProperty("webdriver.ie.driver", "D:\\Study\\Selenium+java\\IEDriverServer.exe");
         WebDriver driver = new InternetExplorerDriver();
         driver.get("https://google.com");
-        System.out.println(driver.getTitle());
-        System.out.println("for test");
     }
 }
