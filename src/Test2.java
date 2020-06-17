@@ -11,5 +11,6 @@ public class Test2 {
         driver.get("https://google.com.ua");
         System.out.println(driver.getTitle());
         System.out.println("feature 1");
+        System.out.println("feature 2");
     }
 }
