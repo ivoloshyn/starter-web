@@ -8,8 +8,9 @@ public class Test2 {
         //gecko driver
         System.setProperty("webdriver.gecko.driver", "D:\\Study\\Selenium+java\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
-        driver.get("https://google.com");
+        driver.get("https://google.com.ua");
         System.out.println(driver.getTitle());
-        System.out.println("remote");
+        System.out.println("from rep");
+        System.out.println("from rep 2");
     }
 }
