@@ -10,7 +10,6 @@ public class Test2 {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://google.com.ua");
         System.out.println(driver.getTitle());
-        // comments
         System.out.println("Master 1");
         System.out.println("my feature branch 1");
     }
