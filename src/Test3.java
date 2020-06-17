@@ -10,6 +10,6 @@ public class Test3 {
         WebDriver driver = new InternetExplorerDriver();
         driver.get("https://google.com");
         System.out.println(driver.getTitle());
-        System.out.println("change in master");
+        System.out.println("master 1");
     }
 }
