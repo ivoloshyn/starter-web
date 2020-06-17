@@ -10,5 +10,6 @@ public class Test3 {
         WebDriver driver = new InternetExplorerDriver();
         driver.get("https://google.com");
         System.out.println(driver.getTitle());
+        System.out.println("for test");
     }
 }
