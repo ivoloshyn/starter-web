@@ -9,5 +9,6 @@ public class Test2 {
         System.setProperty("webdriver.gecko.driver", "D:\\Study\\Selenium+java\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.get("https://google.com.ua");
+        driver.get("for stash");
     }
 }
