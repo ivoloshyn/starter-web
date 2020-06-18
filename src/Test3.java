@@ -8,6 +8,6 @@ public class Test3 {
         //IE driver
         System.setProperty("webdriver.ie.driver", "D:\\Study\\Selenium+java\\IEDriverServer.exe");
         WebDriver driver = new InternetExplorerDriver();
-        driver.get("https://google.com");
+        driver.get("https://google.com.ua");
     }
 }
