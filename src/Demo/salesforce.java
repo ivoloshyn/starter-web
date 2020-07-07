@@ -1,3 +1,5 @@
+package Demo;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,6 +14,10 @@ public class salesforce {
         driver.get("https://login.salesforce.com");
         driver.findElement(By.id("username")).sendKeys("user");
         driver.findElement(By.xpath("//*[@id='Login']")).click();
+        driver.get("https://www.facebook.com/");
+        driver.findElement(new By.ByCssSelector("#email")).sendKeys("emailAddress");
+        driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("password");
+
 
         // xPath //*[@id="username"] //*[@id="password"] //*[@id="Login"]
     }
