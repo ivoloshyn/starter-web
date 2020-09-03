@@ -38,7 +38,6 @@ public class sortingColumns {
         }
         Assert.assertTrue(originalList.equals(copiedList));
         
-        //to do conflict in git
     }
 }
 
