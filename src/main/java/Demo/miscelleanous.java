@@ -18,6 +18,6 @@ public class miscelleanous {
         File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(src,new File("D:\\Study\\Selenium+java\\filescreen.png"));
 
-
+//test remote
     }
 }
